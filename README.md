@@ -1,5 +1,43 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## AGUI Commands
+
+### 🎉 CopilotKit Setup
+
+CopilotKit has been added to your Next.js app with a TypeScript Starter agent scaffolded in the `./agent` directory.
+
+### 🚀 Next Steps
+
+1. Start your Next.js app:
+
+   ```bash
+   npm run dev
+   ```
+
+2. Start your agent:
+
+   ```bash
+   cd agent && npm install && npm run dev
+   ```
+
+3. Navigate to [http://localhost:3000/copilotkit](http://localhost:3000/copilotkit) to talk to your agent
+
+4. Read the documentation at [https://docs.copilotkit.ai](https://docs.copilotkit.ai)
+
+### 📋 Agent Server Information
+
+When starting the agent, you'll see:
+
+```
+> agent_js@1.0.0 dev
+> npx @langchain/langgraph-cli dev --port 8123
+
+Welcome to LangGraph.js
+
+- 🚀 API: http://localhost:8123
+- 🎨 Studio UI: https://smith.langchain.com/studio?baseUrl=http://localhost:8123
+```
+
 ## Getting Started
 
 First, run the development server:
